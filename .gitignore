@@ -1,0 +1,107 @@
+
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Visual Studio
+.vs/
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.suo
+*.user
+*.sdf
+*.opensdf
+ipch/
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.exe
+*.out
+*.app
+*.dylib
+*.pdb
+*.ilk
+*.pch
+*.gch
+*.gcda
+*.gcno
+
+# CLion / JetBrains
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/c_cpp_properties.json
+
+# Package managers
+vcpkg_installed/
+.conan/
+conanbuild/
+conaninfo.txt
+conan.lock
+!conan.lock
+
+# Dependencies
+third_party/
+vendor/
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.sock
+*.core
+core
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Test artifacts
+test-results/
+coverage/
+Testing/
+
+# Crash dumps
+*.dmp
+*.stackdump
